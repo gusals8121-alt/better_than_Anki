@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #e8e5e0;
+  --card: #f5f2ee;
+  --accent: #c8e045;
+  --text: #1a1a1a;
+  --subtext: #8a8a8a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
